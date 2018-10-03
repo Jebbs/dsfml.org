@@ -10,11 +10,13 @@
         <?php include 'header.php'?>
         <div class="inner" class="content">
             <h3>Site under construction!</h3>
-            <h2>Contact</a></h2>
-            <p>Temporary page for contact information (even though the actual information would take up about the same amount of space).</p>
+            <h1>Contact</a></h1>
+            <h3>Jeremy DeHaan</h3>
+            <h3>Email - <a href="mailto:dehaan.jeremiah@gmail.com">dehaan.jeremiah@gmail.com</a></h3>
+            <p>Feel free to contact me with questions/feedback/etc.</p>
+            <p>Don't forget that you can also open issues on <a href="https://github.com/Jebbs/DSFML/issues">github</a>!</p>
         </div>
         <?php include 'footer.php'?>
     </div>
 </body>
 </html>
-
