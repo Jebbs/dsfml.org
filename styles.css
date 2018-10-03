@@ -1,0 +1,264 @@
+header {
+margin-left:0;
+margin-right:0;
+width:100%;
+background-color:#333;
+padding:0;
+}
+
+footer {
+margin-left:0;
+margin-right:0;
+width:100%;
+height:100px;
+background-color:#333;
+padding:0;
+}
+
+html,body {
+height:100%;
+width:100%;
+margin:0;
+}
+
+p, .ddoc_summary, .ddoc_description {
+color:#373737;
+font-size:16px;
+font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+
+pre {
+border:1px solid gray;
+padding:5px;
+font-size: 15px;
+margin: -10px 0 -20px 0;
+}
+
+#title {
+color:#fff;
+font-size:42px;
+font-weight:700;
+text-shadow:#111 0 0 10px;
+}
+
+#logo {
+margin-top:10px;
+margin-left:50px;
+}
+
+.main {
+height:100vh;
+width:100%;
+display:flex;
+flex-direction:column;
+margin:0;
+}
+
+.content {
+flex:1;
+}
+
+.inner {
+margin-left:auto;
+margin-right:auto;
+max-width:950px;
+height:100%;
+}
+
+.cent {
+margin-left:auto;
+margin-right:auto;
+max-width:650px;
+}
+
+.module {
+margin-left:5px;
+margin-right:5px;
+}
+
+.hnav {
+color:#007edf;
+text-decoration:none;
+font-size:20px;
+font-family:initial;
+margin:5px;
+}
+
+ul.hnav li {
+display:inline;
+}
+
+.para {
+margin-top:0;
+}
+
+.decl_anchor {
+color:#373737;
+text-decoration:none;
+cursor:default;
+}
+
+.module_name {
+font-size:36px;
+font-weight:700;
+}
+
+.dsfml_link {
+color:#007edf;
+text-decoration:none;
+}
+
+.ddoc_section_h {
+font-weight:700;
+font-size:20px;
+}
+
+.code {
+font-family:Monaco, monospace;
+}
+
+.com {
+color:green;
+}
+
+.kwd {
+color:#2929e6;
+}
+
+.typ {
+color:#1396fa;
+}
+
+.declaration {
+border-top:1px solid #7d7d7d;
+border-bottom:1px solid #7d7d7d;
+border-top-right-radius:5px;
+border-top-left-radius:5px;
+background-color:#d3d3d3;
+padding-top:2px;
+padding-bottom:2px;
+font-size: 15px;
+}
+
+.ddoc_member {
+border-radius:5px;
+border-left:1px solid #7d7d7d;
+border-right:1px solid #7d7d7d;
+border-bottom:1px solid #7d7d7d;
+margin-bottom:15px;
+margin-left:5px;
+margin-right:5px;
+}
+
+.ddoc_decl_dd {
+margin:5px;
+}
+
+.ddoc_module_members_section {
+margin-top:5px;
+}
+
+.ddoc_param_desc {
+padding:7px;
+}
+
+.ddoc_module_members {
+margin-left:-15px;
+}
+
+.ddoc_members {
+margin-left:15px;
+}
+
+.param_desc {
+margin:0;
+}
+
+.dep_kwd .pln {
+color:red;
+}
+
+.ddoc_params .graybox tr td:first-of-type {
+text-align:right;
+vertical-align:top;
+word-break:normal;
+white-space:nowrap;
+padding:7px;
+}
+
+.ddoc_params .graybox {
+border:0 none;
+}
+
+.ddoc_params .graybox td {
+border-color:#d6d6d6;
+}
+
+.ddoc_params .graybox tr:first-child > td {
+border-top:0 none;
+}
+
+.ddoc_params .graybox tr:last-child > td {
+border-bottom:0 none;
+}
+
+.ddoc_params .graybox tr > td:first-child {
+border-left:0 none;
+}
+
+.ddoc_params .graybox tr > td:last-child {
+border-right:0 none;
+}
+
+.ddoc_enum_members {
+display:table;
+border-collapse:collapse;
+margin-bottom:15px;
+margin-left:15px;
+margin-right:15px;
+}
+
+.ddoc_enum_members .ddoc_member {
+display:table-row;
+}
+
+.ddoc_enum_members .ddoc_decl {
+display:table-cell;
+border:1px;
+background-color:#d3d3d3;
+border-style:solid;
+padding:2px;
+}
+
+.ddoc_enum_members div.dlang {
+border:none;
+margin:0;
+}
+
+.ddoc_enum_members .ddoc_decl_dd {
+display:table-cell;
+border:1px;
+border-style:solid;
+padding:2px;
+}
+
+.ddoc_enum_members .declaration {
+border:none;
+}
+
+h4,.ddoc_enum_members .para {
+margin-bottom:0;
+}
+
+code_lines, .ddoc_members {
+list-style-type:none;
+padding-left:0;
+}
+
+.dlang,.ddoc_decl {
+padding:0;
+}
+
+.lists {
+margin-top: -10px;
+}
