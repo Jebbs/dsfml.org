@@ -16,7 +16,7 @@
             <p>Feel free to contact me with questions/feedback/etc.</p>
             <p>Don't forget that you can also open issues on <a href="https://github.com/Jebbs/DSFML/issues">github</a>!</p>
         </div>
-        <?php include 'footer.php'?>
     </div>
+    <?php include 'footer.php'?>
 </body>
 </html>

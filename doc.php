@@ -13,8 +13,8 @@
             <h2>Documentation</a></h2>
             <p>Temporary page for DSFML documentation.</p>
         </div>
-        <?php include 'footer.php'?>
     </div>
+    <?php include 'footer.php'?>
 </body>
 </html>
 

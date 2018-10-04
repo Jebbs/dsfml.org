@@ -14,8 +14,8 @@
             <p>DSFML is a package providing both a binding and wrapper to SFML, allowing SFML in your D programs.</p>
             <p>DSFML attempts to be as compatible with SFML as possible, but does so in a way that makes sense for the D language.</p>
         </div>
-        <?php include 'footer.php'?>
     </div>
+    <?php include 'footer.php'?>
 </body>
 </html>
 

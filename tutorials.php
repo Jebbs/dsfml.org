@@ -54,7 +54,7 @@
                 <li><a class="link" href="tutorials/ftp.php">File Transfers with FTP</a></li>
             </ul>
         </div>
-        <?php include 'footer.php'?>
     </div>
+    <?php include 'footer.php'?>
 </body>
 </html>

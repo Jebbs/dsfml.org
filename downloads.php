@@ -13,8 +13,8 @@
             <h2>Downloads</a></h2>
             <p>Temporary page for DSFML downloads (this page will probably be removed because there isn't really anything to download anymore).</p>
         </div>
-        <?php include 'footer.php'?>
     </div>
+    <?php include 'footer.php'?>
 </body>
 </html>
 
