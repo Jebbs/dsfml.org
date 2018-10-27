@@ -54,18 +54,24 @@
             <p><u>Windows and DMD</u></p>
             <pre><code>git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
                        cd dsfml
+                       git submodule init
+                       git submodule update
                        dmd build
                        build
                        </code></pre>
             <p><u>Linux and GDC</u></p>
             <pre><code>git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
                        cd dsfml
+                       git submodule init
+                       git submodule update
                        gdc build.d -obuild
                        ./build
             </code></pre>
             <p><u>Any OS and rdmd</u></p>
             <pre><code>git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
                        cd dsfml
+                       git submodule init
+                       git submodule update
                        rdmd build
             </code></pre>
             <p></p>
