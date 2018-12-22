@@ -7,7 +7,7 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../header.php'?>
+        <?php include '../../header.php'?>
         <div class="inner" class="content">
             <h3>Site under construction!</h3>
             <h1> Building From Source<h1>
@@ -18,7 +18,7 @@
                 binding and the D wrapper code. If you plan on using
                 <a href="https://code.dlang.org/" title="D's package and build management system.">DUB</a>,
                 you don't need to build DSFML directly and can jump to
-                <a href="/tutorials/firstprogram.php">Building Your First DSFML Program</a>.
+                <a href="/tutorials/2_4/firstprogram.php">Building Your First DSFML Program</a>.
             </p>
             <p class="para">Prerequisites:</p>
             <ul>
@@ -52,7 +52,7 @@
             script will default to building x64 libraries.
             </p>
             <p><u>Windows and DMD</u></p>
-            <pre><code>git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
+            <pre class="cl"><code>git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
                        cd dsfml
                        git submodule init
                        git submodule update
@@ -81,6 +81,6 @@
             </p>
         </div>
     </div>
-    <?php include '../footer.php'?>
+    <?php include '../../footer.php'?>
 </body>
 </html>

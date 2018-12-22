@@ -14,8 +14,8 @@
             <p class="para">This series of tutorials for DSFML are based upon Laurent's tutorials for <a class="link" href="http://www.sfml-dev.org/tutorials/2.4/">SFML</a>. All content seen here should be credited to Laurent's original work. Changes have been made only where necessary to work with D and DSFML, instead of C++ and SFML.</p>
             <h2 id="getting-started">Getting Started</h1>
             <ul>
-                <li><a class="link" href="tutorials/buildingfromsource.php">Building From Source</a></li>
-                <li><a class="link" href="tutorials/firstprogram.php">Building Your First DSFML Program</a></li>
+                <li><a class="link" href="tutorials/2_4/buildingfromsource.php">Building From Source</a></li>
+                <li><a class="link" href="tutorials/2_4/firstprogram.php">Building Your First DSFML Program</a></li>
             </ul>
             <h2 id="system-module">System Module</h2>
             <ul>

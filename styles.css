@@ -45,13 +45,19 @@ font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 pre {
-border:1px solid gray;
 padding:5px;
 font-size: 15px;
 margin: -10px 0 0 0;
 background: #ffffff;
-white-space: pre-line;
 line-height: 130%;
+box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.cl {
+    background-color: #fff;
+    white-space: pre-line;
+    padding-left:2px;
+    padding-right:2px;
 }
 
 ul {
