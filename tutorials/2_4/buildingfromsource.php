@@ -40,7 +40,7 @@
                 To run the script, build it with your D compiler of choice and
                 run the produced executable in the top level directory of the
                 cloned repository. After completing, you'll see a newly created
-                <code>lib</code> directory with static libraries. The build
+                <code class="cl">lib</code> directory with static libraries. The build
                 script will use the same compilerit was built with to build
                 DSFML.
             </p>
@@ -52,7 +52,8 @@
             script will default to building x64 libraries.
             </p>
             <p><u>Windows and DMD</u></p>
-            <pre class="cl"><code>git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
+            <pre class="cl"><code>
+                       git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
                        cd dsfml
                        git submodule init
                        git submodule update
@@ -60,15 +61,17 @@
                        build
                        </code></pre>
             <p><u>Linux and GDC</u></p>
-            <pre><code>git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
+            <pre class="cl"><code>
+                       git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
                        cd dsfml
                        git submodule init
                        git submodule update
                        gdc build.d -obuild
                        ./build
-            </code></pre>
+                       </code></pre>
             <p><u>Any OS and rdmd</u></p>
-            <pre><code>git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
+            <pre  class="cl"><code>
+                       git clone -b v2.4.0-rc.1 https://github.com/jebbs/dsfml
                        cd dsfml
                        git submodule init
                        git submodule update

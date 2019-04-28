@@ -19,7 +19,7 @@
             </ul>
             <h2 id="system-module">System Module</h2>
             <ul>
-                <li><a class="link" href="tutorials/time.php">Handling Time</a></li>
+                <li><a class="link" href="tutorials/2_4/time.php">Handling Time</a></li>
                 <li><a class="link" href="tutorials/streams.php">User Data Streams</a></li>
             </ul>
             <h2 id="window-module">Window Module</h2>

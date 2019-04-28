@@ -35,7 +35,7 @@ h1 {
 }
 h2 {
     font-size: 28px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 p, ul, .ddoc_summary, .ddoc_description {
@@ -51,6 +51,9 @@ margin: -10px 0 0 0;
 background: #ffffff;
 line-height: 130%;
 box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+pre:first-line {
+    line-height: 0px;
 }
 
 .cl {
