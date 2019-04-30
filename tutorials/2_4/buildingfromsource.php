@@ -30,7 +30,7 @@
             <h3>build.d</h3>
             <p class="para">
                 For convenience, DSFML comes with a build script
-                (<code>build.d</code>) to automate the building process. Given
+                (<code class="cl">build.d</code>) to automate the building process. Given
                 that you have all the prerequesites listed above, building DSFML
                 is mot much more complicated than cloning the DSFML repository
                 and running the script.

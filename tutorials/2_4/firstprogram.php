@@ -160,7 +160,7 @@ void main(string[] args)
             If everything was done correctly, you will see a weird green
             smiling face.
             </p>
-            <img src="http://i.imgur.com/hbt1IBH.png" alt="FACE!">
+            <img src="https://i.imgur.com/hbt1IBH.png" alt="FACE!">
             </p>
             <p class="para">
             That should take care of the basics of setting up a DSFML project.
