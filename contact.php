@@ -9,7 +9,6 @@
     <div class="main">
         <?php include 'header.php'?>
         <div class="inner" class="content">
-            <h3>Site under construction!</h3>
             <h1>Contact</a></h1>
             <h3>Jeremy DeHaan</h3>
             <h3>Email - <a href="mailto:dehaan.jeremiah@gmail.com">dehaan.jeremiah@gmail.com</a></h3>

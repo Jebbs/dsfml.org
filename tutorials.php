@@ -9,7 +9,6 @@
     <div class="main">
         <?php include 'header.php'?>
         <div class="inner" class="content">
-            <h3>Site under construction!</h3>
             <h1>Tutorials</h1>
             <p class="para">This series of tutorials for DSFML are based upon Laurent's tutorials for <a class="link" href="http://www.sfml-dev.org/tutorials/2.4/">SFML</a>. All content seen here should be credited to Laurent's original work. Changes have been made only where necessary to work with D and DSFML, instead of C++ and SFML.</p>
             <h2 id="getting-started">Getting Started</h1>

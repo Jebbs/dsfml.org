@@ -9,7 +9,6 @@
     <div class="main">
         <?php include 'header.php'?>
         <div class="inner" class="content">
-            <h3>Site under construction!</h3>
             <h2>Documentation</a></h2>
             <p>Temporary page for DSFML documentation.</p>
         </div>

@@ -10,7 +10,6 @@
     <div class="main">
         <?php include '../../header.php'?>
         <div class="inner" class="content">
-            <h3>Site under construction!</h3>
             <h1>Building Your First Program</h1>
             <h2 id="introduction">Introduction</h2>
             <p class="para">

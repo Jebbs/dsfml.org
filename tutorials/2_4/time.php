@@ -10,7 +10,6 @@
     <div class="main">
         <?php include '../../header.php'?>
         <div class="inner" class="content">
-            <h3>Site under construction!</h3>
             <h1>Handling Time</h1>
             <h2>Time in DSFML</h2>
             <p class="para">

@@ -9,5 +9,8 @@
                 <li class="hnav"><a class="hnav" href="http://en.sfml-dev.org/forums/index.php?board=13.0">Forum</a></li>
                 <li class="hnav"><a class="hnav" href="/contact.php">Contact</a></li>
             </ul>
-        </div>
+    </div>
 </header>
+<div class="cent">
+    <h3>Site under construction!</h3>
+</div>
