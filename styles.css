@@ -30,23 +30,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 2.375em;
     padding-top: 5px;
 }
 h2 {
-    font-size: 28px;
+    font-size: 1.75em;
     padding-top: 10px;
 }
 
 p, ul, .ddoc_summary, .ddoc_description {
 color:#373737;
-font-size:16px;
+font-size: 1em;
 font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 pre {
 padding:5px;
-font-size: 15px;
+font-size: .9em;
 margin: -10px 0 0 0;
 background: #ffffff;
 line-height: 130%;
@@ -61,6 +61,8 @@ pre:first-line {
     white-space: pre-line;
     padding-left:2px;
     padding-right:2px;
+    font-size: .9em;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
 ul {
@@ -80,7 +82,7 @@ li.L5, li.L6, li.L7, li.L8, li.L9 {
 
 #title {
 color:#fff;
-font-size:42px;
+font-size: 2.625em;
 font-weight:700;
 text-shadow:#111 0 0 10px;
 }
@@ -127,13 +129,20 @@ margin-right:5px;
 .link {
     color:#007edf;
     text-decoration:none;
-    font-size:16px;
+    font-size:1em;
     font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 .link:hover {
     text-decoration: underline;
 }
+
+.anchor {
+    text-decoration:none;
+    color:#222222;
+    cursor: default;
+}
+
 
 .hnav {
 color:#007edf;
@@ -174,7 +183,7 @@ font-size:20px;
 }
 
 .code {
-font-family:Monaco, monospace;
+font-family:Consolas,"Liberation Mono",Courier,monospace;
 }
 
 .com {
