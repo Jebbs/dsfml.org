@@ -10,11 +10,11 @@
         <?php include '../../header.php'?>
         <div class="inner" class="content">
             <h1> Building From Source<h1>
-            <h2 id="introduction">Introduction</h2>
+            <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
             <p class="para">
                 This tutorial outlines how to build DSFML from source. Building
                 DSFML produces a set of static libraries which combine the C++
-                binding and the D wrapper code. If you plan on using
+                binding and the D wrapper code. If you plan on using 
                 <a href="https://code.dlang.org/" title="D's package and build management system.">DUB</a>,
                 you don't need to build DSFML directly and can jump to
                 <a href="/tutorials/2_4/firstprogram.php">Building Your First DSFML Program</a>.
@@ -26,7 +26,7 @@
                 <li>Git</li>
                 <li>CMake</li>
             </ul>
-            <h2 id="building-dsfml">Building DSFML</h2>
+            <h2 id="building-dsfml"><a class ="anchor" href="#building-dsfml">Building DSFML</a></h2>
             <h3>build.d</h3>
             <p class="para">
                 For convenience, DSFML comes with a build script
