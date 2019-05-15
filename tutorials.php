@@ -23,7 +23,7 @@
             </ul>
             <h2 id="window-module">Window Module</h2>
             <ul>
-                <li><a class="link" href="tutorials/window.php">Opening and Managing a DSFML Window</a></li>
+                <li><a class="link" href="tutorials/2_4/window.php">Opening and Managing a DSFML Window</a></li>
                 <li><a class="link" href="tutorials/events.php">Events Explained</a></li>
                 <li><a class="link" href="tutorials/inputs.php">Keyboard, Mouse, and Joysticks</a></li>
             </ul>
