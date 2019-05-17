@@ -10,7 +10,7 @@
     <div class="main">
         <?php include '../../header.php'?>
         <div class="inner" class="content">
-            <h1>Opening and managing a DSFML window<h1>
+            <h1>Opening and managing a DSFML window</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
             <p class="para">
                 This tutorial only explains how to open and manage a window.

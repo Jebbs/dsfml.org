@@ -9,7 +9,7 @@
     <div class="main">
         <?php include '../../header.php'?>
         <div class="inner" class="content">
-            <h1> Building From Source<h1>
+            <h1> Building From Source</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
             <p class="para">
                 This tutorial outlines how to build DSFML from source. Building

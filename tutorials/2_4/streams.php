@@ -10,7 +10,7 @@
     <div class="main">
         <?php include '../../header.php'?>
         <div class="inner" class="content">
-            <h1>User Data Streams<h1>
+            <h1>User Data Streams</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
             <p class="para">
             DSFML has several resource classes: images, fonts, sounds, etc. In
