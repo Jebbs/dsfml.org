@@ -24,8 +24,9 @@
             <h2 id="window-module">Window Module</h2>
             <ul>
                 <li><a class="link" href="tutorials/2_4/window.php">Opening and Managing a DSFML Window</a></li>
-                <li><a class="link" href="tutorials/events.php">Events Explained</a></li>
-                <li><a class="link" href="tutorials/inputs.php">Keyboard, Mouse, and Joysticks</a></li>
+                <li><a class="link" href="tutorials/2_4/events.php">Events Explained</a></li>
+                <li><a class="link" href="tutorials/2_4/inputs.php">Keyboard, Mouse, and Joysticks</a></li>
+                <li><a class="link" href="tutorials/2_4/opengl.php">Using OpenGL in a DSFML window</a></li>
             </ul>
             <h2 id="graphics-module">Graphics Module</h2>
             <ul>
