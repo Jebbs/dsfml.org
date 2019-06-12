@@ -4,13 +4,13 @@
         <meta name="theme-color" content="#333333">
         <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
         <link rel="stylesheet" href="/styles.css">
-        <title>DSFML - Using OpenGL in a SFML window</title>
+        <title>DSFML - Using OpenGL in a DSFML window</title>
     </head>
 <body>
     <div class="main">
         <?php include '../../header.php'?>
         <div class="inner" class="content">
-          <h1>Using OpenGL in a SFML window</h1>
+          <h1>Using OpenGL in a DSFML window</h1>
           <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
           <p class="para">
           This tutorial is not about OpenGL itself, but rather how to use
@@ -191,7 +191,7 @@ int main()
         for this purpose.
         </p>
         <pre><code class="prettyprint">
-        // activate the window's context
+// activate the window's context
 window.setActive(true);
 
 // set up OpenGL states
@@ -434,15 +434,6 @@ glDraw...</code></pre><p></p>
           the ones that you really need which leads to reducing the number of
           unnecessary driver calls.
           </p>
-
-
-
-
-
-
-        
-        
-
         </div>
     </div>
     <?php include '../../footer.php'?>

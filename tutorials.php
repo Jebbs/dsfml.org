@@ -30,14 +30,14 @@
             </ul>
             <h2 id="graphics-module">Graphics Module</h2>
             <ul>
-                <li><a class="link" href="tutorials/graphics-draw.php">Drawing 2D Stuff</a></li>
-                <li><a class="link" href="tutorials/sprites.php">Sprites and Textures</a></li>
-                <li><a class="link" href="tutorials/text.php">Text and Fonts</a></li>
-                <li><a class="link" href="tutorials/shapes.php">Shapes</a></li>
-                <li><a class="link" href="tutorials/vertex-arrays.php">Designing Your own Entities with Vertex Arrays</a></li>
-                <li><a class="link" href="tutorials/transforms.php">Position, Rotation, Scale: Transforming Entities</a></li>
-                <li><a class="link" href="tutorials/shaders.php">Adding Special Effects with Shaders</a></li>
-                <li><a class="link" href="tutorials/cameraviews.php">Controlling the 2D Camera with Views</a></li>
+                <li><a class="link" href="tutorials/2_4/graphics-draw.php">Drawing 2D Stuff</a></li>
+                <li><a class="link" href="tutorials/2_4/sprites.php">Sprites and Textures</a></li>
+                <li><a class="link" href="tutorials/2_4/text.php">Text and Fonts</a></li>
+                <li><a class="link" href="tutorials/2_4/shapes.php">Shapes</a></li>
+                <li><a class="link" href="tutorials/2_4/vertex-arrays.php">Designing Your own Entities with Vertex Arrays</a></li>
+                <li><a class="link" href="tutorials/2_4/transforms.php">Position, Rotation, Scale: Transforming Entities</a></li>
+                <li><a class="link" href="tutorials/2_4/shaders.php">Adding Special Effects with Shaders</a></li>
+                <li><a class="link" href="tutorials/2_4/cameraviews.php">Controlling the 2D Camera with Views</a></li>
             </ul>
             <h2 id="audio-module">Audio Module</h2>
             <ul>
