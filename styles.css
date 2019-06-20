@@ -44,25 +44,36 @@ font-size: 1em;
 font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
+
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url('DejaVuSansMono.ttf');
+}
+
+code {
+    font-family: 'DejaVu Sans Mono';
+}
+
 pre {
-padding:5px;
-font-size: .9em;
-margin: -10px 0 0 0;
+padding:10px;
+font-size: .8em;
+margin: -5px 0 0 0;
 background: #ffffff;
 line-height: 130%;
-box-shadow: 0 0 10px rgba(0,0,0,.1);
+border: 1px solid #bbb;
+border-radius: 10px;
 }
 pre:first-line {
     line-height: 0px;
 }
 
 .cl {
-    background-color: #fff;
+    /*background-color: #fff;*/
     white-space: pre-line;
     padding-left:2px;
     padding-right:2px;
-    font-size: .9em;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    font-size: .8em;
+    /*box-shadow: 0 0 10px rgba(0,0,0,.1);*/
 }
 
 .important {
@@ -84,13 +95,17 @@ li {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-  }
+}
 
 th,td {
     padding: 20px;
     color:#373737;
     font-size: 1em;
     font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+th {
+    white-space: nowrap;
+    background-color:  #bbb;
 }
 
 /*

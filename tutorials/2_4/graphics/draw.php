@@ -7,7 +7,7 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
           <h1>Drawing 2D stuff</h1>
           <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
@@ -224,7 +224,7 @@ int main()
           <p class="para">
           Remember to always create the window and handle its events in the main
           thread for maximum portability. This is explained in the
-          <a class="link" href="/tutorials/2_4/window.php">window tutorial</a>.
+          <a class="link" href="/tutorials/2_4/window/window.php">window tutorial</a>.
           </p>
 
 
@@ -232,6 +232,6 @@ int main()
           
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>

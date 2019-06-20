@@ -8,7 +8,7 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
             <h1>Opening and managing a DSFML window</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
@@ -83,7 +83,7 @@ int main()
             <p></p>
             <p class="para">
                 There's also a fourth optional argument, which defines OpenGL
-                specific options which are explained in the <a class="link" href="/tutorials/2_4/opengl.php">dedicated OpenGL tutorial</a>.
+                specific options which are explained in the <a class="link" href="/tutorials/2_4/window/opengl.php">dedicated OpenGL tutorial</a>.
             </p>
             <p class="para">
                 If you want to create the window after the construction of the
@@ -193,7 +193,7 @@ int main()
                 To draw stuff, you can also use OpenGL directly and totally
                 ignore the sfml-graphics module. <a class="link" href="/doc/2_4/window/window.php">Window</a>
                 internally creates an OpenGL context and is ready to accept your
-                OpenGL calls. You can learn more about that in the <a class="link" href="/tutorials/2_4/opengl.php">corresponding tutorial<a>.
+                OpenGL calls. You can learn more about that in the <a class="link" href="/tutorials/2_4/window/opengl.php">corresponding tutorial<a>.
             </p>
             <p class="para">
                 Don't expect to see something interesting in this window: you
@@ -360,6 +360,6 @@ window.setFramerateLimit(60); // call it once, after creating the window</code><
             </p>
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>

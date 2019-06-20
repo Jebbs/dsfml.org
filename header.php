@@ -1,3 +1,6 @@
+<?php
+if(count(get_included_files()) ==1) exit("Direct access not permitted.");
+?>
 <header>
     <!--<a id="forkme_banner" href="https://github.com/Jebbs/DSFML">View on GitHub</a> -->
     <div class="cent">

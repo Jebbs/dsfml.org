@@ -7,7 +7,7 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
             <h1> Building From Source</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
@@ -17,7 +17,7 @@
                 binding and the D wrapper code. If you plan on using 
                 <a href="https://code.dlang.org/" title="D's package and build management system.">DUB</a>,
                 you don't need to build DSFML directly and can jump to
-                <a href="/tutorials/2_4/firstprogram.php">Building Your First DSFML Program</a>.
+                <a href="/tutorials/2_4/start/firstprogram.php">Building Your First DSFML Program</a>.
             </p>
             <p class="para">Prerequisites:</p>
             <ul>
@@ -83,6 +83,6 @@
             </p>
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>

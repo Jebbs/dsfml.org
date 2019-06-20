@@ -8,7 +8,7 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
             <h1>User Data Streams</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
@@ -141,6 +141,6 @@ long seek(long position)
             </p>
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>

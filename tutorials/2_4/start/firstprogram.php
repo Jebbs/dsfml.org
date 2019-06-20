@@ -8,7 +8,7 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
             <h1>Building Your First Program</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
@@ -42,7 +42,7 @@
             <p class="para">
                 If you don't plan on using DUB to build your projects, you will
                 need to have DSFML static libraries to link with. If you haven't
-                already, see the tutorial on <a href="/tutorials/2_4/buildingfromsource.php">
+                already, see the tutorial on <a href="/tutorials/2_4/start/buildingfromsource.php">
                 building from source<a>. If you <i>do</i> plan on using DUB, you
                 can skip that tutorial as DUB will handle building DSFML for you.
             </p>
@@ -169,7 +169,7 @@ void main(string[] args)
 
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>
 

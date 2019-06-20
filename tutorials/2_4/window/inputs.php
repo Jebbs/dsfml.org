@@ -8,7 +8,7 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
             <h1>Keyboard, mouse and joystick</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
@@ -151,6 +151,6 @@ bool hasZ = Joystick.hasAxis(0, Joystick.Axis.Z);</code></pre><p></p>
 
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>

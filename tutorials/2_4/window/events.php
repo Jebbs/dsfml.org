@@ -8,7 +8,7 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
             <h1>Events explained</h1>
             <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
@@ -209,7 +209,7 @@ if (event.type == Event.EventType.TextEntered)
         (independently of events) as long as the boolean is set.<br>
         The other (easier) solution to produce smooth movement is to use
         real-time keyboard input with <a class="link" href="/doc/2_4/window/keyboard.php">Keyboard</a>
-        (see the <a class="link" href="/tutorials/2_4/inputs.php">dedicated tutorial<a>).
+        (see the <a class="link" href="/tutorials/2_4/window/inputs.php">dedicated tutorial<a>).
         </p>
         <p class="para">
         The member associated with these events is <code class="cl">event.key</code>,
@@ -398,6 +398,6 @@ if (event.type == Event.EventType.JoystickDisconnected)
     writeln("joystick disconnected: ", event.joystickConnect.joystickId);</code></pre><p></p>
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>
