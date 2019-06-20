@@ -8,9 +8,8 @@
     </head>
     <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
-            <h3>Site under construction!</h3>
             <h1>Handling Time</h1>
             <h2>Time in DSFML</h2>
             <p class="para">
@@ -112,6 +111,6 @@ while (window.isOpen())
 </code></pre>
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>

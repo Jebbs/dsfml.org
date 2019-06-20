@@ -23,44 +23,65 @@ margin:0;
 
 h1, h2, h3, h4, h5, h6 {
     margin: 10px 0;
-    font-weight: 700;
+    font-weight: 500;
     color:#222222;
     font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
     letter-spacing: -1px;
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 2.25em;
     padding-top: 5px;
 }
 h2 {
-    font-size: 28px;
+    font-size: 1.5em;
     padding-top: 10px;
 }
 
 p, ul, .ddoc_summary, .ddoc_description {
 color:#373737;
-font-size:16px;
+font-size: 1em;
 font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
+
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url('DejaVuSansMono.ttf');
+}
+
+code {
+    font-family: 'DejaVu Sans Mono';
+}
+
 pre {
-padding:5px;
-font-size: 15px;
-margin: -10px 0 0 0;
+padding:10px;
+font-size: .8em;
+margin: -5px 0 0 0;
 background: #ffffff;
 line-height: 130%;
-box-shadow: 0 0 10px rgba(0,0,0,.1);
+border: 1px solid #bbb;
+border-radius: 10px;
 }
 pre:first-line {
     line-height: 0px;
 }
 
 .cl {
-    background-color: #fff;
+    /*background-color: #fff;*/
     white-space: pre-line;
     padding-left:2px;
     padding-right:2px;
+    font-size: .8em;
+    /*box-shadow: 0 0 10px rgba(0,0,0,.1);*/
+}
+
+.important {
+    background-color: #ffebdc;
+    border: 1px solid #bbb;
+    padding: .5em 1em;
+    border-radius: 10px;
+    color: #b44;
 }
 
 ul {
@@ -69,6 +90,22 @@ ul {
 
 li {
     line-height: 130%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding: 20px;
+    color:#373737;
+    font-size: 1em;
+    font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+th {
+    white-space: nowrap;
+    background-color:  #bbb;
 }
 
 /*
@@ -80,7 +117,7 @@ li.L5, li.L6, li.L7, li.L8, li.L9 {
 
 #title {
 color:#fff;
-font-size:42px;
+font-size: 2.625em;
 font-weight:700;
 text-shadow:#111 0 0 10px;
 }
@@ -106,7 +143,7 @@ flex:1;
 .inner {
 margin-left:auto;
 margin-right:auto;
-width:800px;
+width: 900px;
 height:100%;
 padding-left: calc(100vw - 100%);
 padding-bottom: 20px;
@@ -127,13 +164,20 @@ margin-right:5px;
 .link {
     color:#007edf;
     text-decoration:none;
-    font-size:16px;
+    font-size:1em;
     font-family:'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
 }
 
 .link:hover {
     text-decoration: underline;
 }
+
+.anchor {
+    text-decoration:none;
+    color:#222222;
+    cursor: default;
+}
+
 
 .hnav {
 color:#007edf;
@@ -174,7 +218,7 @@ font-size:20px;
 }
 
 .code {
-font-family:Monaco, monospace;
+font-family:Consolas,"Liberation Mono",Courier,monospace;
 }
 
 .com {

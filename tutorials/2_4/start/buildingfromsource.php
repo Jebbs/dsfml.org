@@ -7,18 +7,17 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
-            <h3>Site under construction!</h3>
-            <h1> Building From Source<h1>
-            <h2 id="introduction">Introduction</h2>
+            <h1> Building From Source</h1>
+            <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
             <p class="para">
                 This tutorial outlines how to build DSFML from source. Building
                 DSFML produces a set of static libraries which combine the C++
-                binding and the D wrapper code. If you plan on using
+                binding and the D wrapper code. If you plan on using 
                 <a href="https://code.dlang.org/" title="D's package and build management system.">DUB</a>,
                 you don't need to build DSFML directly and can jump to
-                <a href="/tutorials/2_4/firstprogram.php">Building Your First DSFML Program</a>.
+                <a href="/tutorials/2_4/start/firstprogram.php">Building Your First DSFML Program</a>.
             </p>
             <p class="para">Prerequisites:</p>
             <ul>
@@ -27,11 +26,11 @@
                 <li>Git</li>
                 <li>CMake</li>
             </ul>
-            <h2 id="building-dsfml">Building DSFML</h2>
+            <h2 id="building-dsfml"><a class ="anchor" href="#building-dsfml">Building DSFML</a></h2>
             <h3>build.d</h3>
             <p class="para">
                 For convenience, DSFML comes with a build script
-                (<code>build.d</code>) to automate the building process. Given
+                (<code class="cl">build.d</code>) to automate the building process. Given
                 that you have all the prerequesites listed above, building DSFML
                 is mot much more complicated than cloning the DSFML repository
                 and running the script.
@@ -84,6 +83,6 @@
             </p>
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>

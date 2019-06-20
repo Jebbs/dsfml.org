@@ -8,11 +8,10 @@
     </head>
 <body>
     <div class="main">
-        <?php include '../../header.php'?>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'?>
         <div class="inner" class="content">
-            <h3>Site under construction!</h3>
             <h1>Building Your First Program</h1>
-            <h2 id="introduction">Introduction</h2>
+            <h2 id="introduction"><a class ="anchor" href="#introduction">Introduction</a></h2>
             <p class="para">
                 This tutorial outlines how to build a DSFML program.
             </p>
@@ -27,7 +26,7 @@
             <p class="para">
                 For the sake of brevity, this tutorial will use DMD.
             </p>
-            <h2 id="installing-sfml">Installing SFML</h2>
+            <h2 id="installing-sfml"><a class ="anchor" href="#installing-sfml">Installing SFML</a></h2>
             <p class="para">
                 As DSFML is a binding to SFML, we will need this library to make
                 our programs compile and work. If you don't already have this
@@ -39,15 +38,15 @@
                 While it isn't a requirement to do so, this tutorial assumes
                 that you'll be linking to the shared library version of SFML.
             </p>
-            <h2 id="building-dsfml">Building DSFML (Optional)</h2>
+            <h2 id="building-dsfml"><a class ="anchor" href="#building-dsfml">Building DSFML (Optional)</a></h2>
             <p class="para">
                 If you don't plan on using DUB to build your projects, you will
                 need to have DSFML static libraries to link with. If you haven't
-                already, see the tutorial on <a href="/tutorials/2_4/buildingfromsource.php">
+                already, see the tutorial on <a href="/tutorials/2_4/start/buildingfromsource.php">
                 building from source<a>. If you <i>do</i> plan on using DUB, you
                 can skip that tutorial as DUB will handle building DSFML for you.
             </p>
-            <h2>Example Code</h2>
+            <h2 id="example-code"><a class ="anchor" href="#example-code">Example Code</a></h2>
             <p class="para">
             If we're going to build a program, we're going to need some code.
             The following code segement is what we'll use, and we'll name it
@@ -105,7 +104,7 @@ void main(string[] args)
     }
 }
 </code></pre>
-            <h2 id="compiling-cl">Compiling - Command Line</h2>
+            <h2 id="compiling-cl"><a class ="anchor" href="#compiling-cl">Compiling - Command Line</a></h2>
             <p class="para">
                 To compile the test program, you'll need to know the path to
                 three locations:
@@ -130,7 +129,7 @@ void main(string[] args)
             <h3>Linux/macOS</h3>
             <pre class="cl"><code>
             dmd app.d -IDSFML\src\ -L-LDSFMLC\lib\ -L-LDSFML\lib\ -L-ldsfml-graphics -L-ldsfml-window -L-ldsfml-system -L-lsfml-graphics -L-lsfml-window -L-lsfml-system</code></pre>
-            <h2 id="compiling-dub">Compiling - DUB</h2>
+            <h2 id="compiling-dub"><a class ="anchor" href="#compiling-dub">Compiling - DUB</a></h2>
             <p class="para">
             Using <a href="https://code.dlang.org/" title="D's package and build management system.">DUB</a>
             to build your project simplifies a lot of things. All you need to
@@ -156,12 +155,12 @@ void main(string[] args)
             <pre class="cl"><code>
             dub build
             </code></pre>
-            <h2>Expected Output</h2>
+            <h2 id="expected-output"><a class ="anchor" href="#expected-output">Expected Output</a></h2>
             <p class="para">
             If everything was done correctly, you will see a weird green
             smiling face.
             </p>
-            <img src="http://i.imgur.com/hbt1IBH.png" alt="FACE!">
+            <img src="https://i.imgur.com/hbt1IBH.png" alt="FACE!">
             </p>
             <p class="para">
             That should take care of the basics of setting up a DSFML project.
@@ -170,7 +169,7 @@ void main(string[] args)
 
         </div>
     </div>
-    <?php include '../../footer.php'?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'?>
 </body>
 </html>
 
